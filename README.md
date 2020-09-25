@@ -1,4 +1,4 @@
-# StatementProject
+# StatementTestProject
 Steps to run the code:
 1. Pull the project from repository
 2. Save it in a system from where you want to run it.
