@@ -1,0 +1,6 @@
+baseURL=http://localhost:9999/statements
+browserName=chrome
+filteredAccountID=1
+insertedAccountID=9
+amountwhileInserting=5.05
+previousDate=2020-09-21 13:30:19

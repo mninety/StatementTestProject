@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [StatementSuite]">
+  <test thread-count="5" name="StatmentTest(failed)">
+    <classes>
+      <class name="StatementTest.Statement">
+        <methods>
+          <include name="StatementFilteredwithDate_WhichExactlyMatchwithOperationDate"/>
+          <include name="StatementFilteredwithDate_ButnoRecordFound"/>
+          <include name="AfterBalanceCalculationforSpecificUser"/>
+          <include name="BeforeBalanceCalculationforSpecificUser"/>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- StatementTest.Statement -->
+    </classes>
+  </test> <!-- StatmentTest(failed) -->
+</suite> <!-- Failed suite [StatementSuite] -->

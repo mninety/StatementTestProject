@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12097" started-at="2020-09-25T10:27:01 BDT" finished-at="2020-09-25T10:27:14 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12097" started-at="2020-09-25T10:27:01 BDT" finished-at="2020-09-25T10:27:14 BDT">
+      <class name="StatementTest.Statement">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:StatementTest.Statement@59e5ddf]" name="setUp" is-config="true" duration-ms="6161" started-at="2020-09-25T10:27:01 BDT" finished-at="2020-09-25T10:27:08 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="AfterBalanceCalculationforSpecificUser()[pri:0, instance:StatementTest.Statement@59e5ddf]" name="AfterBalanceCalculationforSpecificUser" duration-ms="2793" started-at="2020-09-25T10:27:08 BDT" description="Before after is calculated for a specific user" finished-at="2020-09-25T10:27:10 BDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual balance after is not matched with expected balance after expected [-1912.16] but found [-1674.57]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual balance after is not matched with expected balance after expected [-1912.16] but found [-1674.57]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEquals(Assert.java:701)
+at StatementTest.Statement.AfterBalanceCalculationforSpecificUser(Statement.java:101)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterBalanceCalculationforSpecificUser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:StatementTest.Statement@59e5ddf]" name="afterTest" is-config="true" duration-ms="3091" started-at="2020-09-25T10:27:10 BDT" finished-at="2020-09-25T10:27:14 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- StatementTest.Statement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

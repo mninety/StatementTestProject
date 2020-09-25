@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 15.327 s <<< FAILURE! - in TestSuite
+AfterBalanceCalculationforSpecificUser(StatementTest.Statement)  Time elapsed: 1.309 s  <<< FAILURE!
+java.lang.AssertionError: Actual balance after is not matched with expected balance after expected [32.0] but found [25.00]
+	at StatementTest.Statement.AfterBalanceCalculationforSpecificUser(Statement.java:101)
+
+BeforeBalanceCalculationforSpecificUser(StatementTest.Statement)  Time elapsed: 0.713 s  <<< FAILURE!
+java.lang.AssertionError: expected [17.0] but found [0.00]
+	at StatementTest.Statement.BeforeBalanceCalculationforSpecificUser(Statement.java:63)
+
+StatementFilteredwithDate_ButnoRecordFound(StatementTest.Statement)  Time elapsed: 2.081 s  <<< FAILURE!
+java.lang.AssertionError: No result found even though we have statement in between this date range expected [true] but found [false]
+	at StatementTest.Statement.StatementFilteredwithDate_ButnoRecordFound(Statement.java:187)
+
+StatementFilteredwithDate_WhichExactlyMatchwithOperationDate(StatementTest.Statement)  Time elapsed: 0.81 s  <<< FAILURE!
+java.lang.AssertionError: No result found even though we have statement for this date range expected [true] but found [false]
+	at StatementTest.Statement.StatementFilteredwithDate_WhichExactlyMatchwithOperationDate(Statement.java:132)
+
